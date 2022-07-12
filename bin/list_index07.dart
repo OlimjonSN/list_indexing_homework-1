@@ -7,3 +7,13 @@
         list: return answer
 */
 void main() {}
+func(l) {
+  int i = 0;
+  while (i <= l.length - 1) {
+    if (l[i] == 0) {
+      l[i] = true;
+    }
+    i++;
+  }
+  return l;
+}

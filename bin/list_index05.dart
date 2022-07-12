@@ -8,3 +8,6 @@
         list: return answer
 */
 void main() {}
+func(a, b) {
+  return a[b];
+}

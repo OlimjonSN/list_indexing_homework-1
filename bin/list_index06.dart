@@ -6,4 +6,18 @@
     Returns:
         list: return answer
 */
-void main() {}
+void main() {
+  List ls = [1, 0, 1];
+  print(func(ls));
+}
+
+func(l) {
+  int i = 0;
+  while (i <= l.length - 1) {
+    if (l[i] == 1) {
+      l[i] = true;
+    }
+    i++;
+  }
+  return l;
+}

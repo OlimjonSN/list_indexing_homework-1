@@ -6,4 +6,23 @@
     Returns:
         bool: return answer
 */
-void main() {}
+void main() {
+  List l = [1, 1, 1, 1, 1];
+  print(func(l));
+}
+
+func(l) {
+  int i = 0;
+  List tr = [];
+  bool b = false;
+  while (i <= l.length - 1) {
+    if (l[i] == l[l.length - 1]) {
+      tr.add(true);
+    }
+    i++;
+  }
+  if (tr.length == l.length) {
+    b = true;
+  }
+  return b;
+}

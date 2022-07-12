@@ -7,3 +7,12 @@
         int: return answer
 */
 void main() {}
+func(l) {
+  int b;
+  if (l.first > l.last) {
+    b = l.first;
+  } else {
+    b = l.last;
+  }
+  return b;
+}
