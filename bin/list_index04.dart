@@ -6,6 +6,12 @@
     Returns:
         list: return answer
 */
-void main() {}
+void main() {
+  List l = [12, 2, 500];
+  print(func(l));
+}
 
-func(list1) => [list1[list1.legth - 1]];
+func(list1) {
+  List ll = [list1.last];
+  return ll;
+}
