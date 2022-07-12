@@ -4,7 +4,7 @@
     Args:
         list_num (list): parameter
     Returns:
-    
+
         int: return answer
 */
 void main() {}
@@ -15,5 +15,5 @@ func(l) {
   } else {
     b = l.last;
   }
-  return b;
+  return [b];
 }

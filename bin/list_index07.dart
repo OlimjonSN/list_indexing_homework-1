@@ -16,10 +16,10 @@ func(l) {
 
   while (i <= l.length - 1) {
     if (l[i] == 0) {
-      l[i] = true;
+      l[i] = false;
     }
     i++;
   }
-  print(l);
+
   return l;
 }
