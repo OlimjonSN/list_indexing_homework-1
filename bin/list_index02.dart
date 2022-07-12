@@ -7,3 +7,6 @@
         list: return answer
 */
 void main() {}
+func(list) {
+  return list[0];
+}
