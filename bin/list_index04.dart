@@ -8,4 +8,4 @@
 */
 void main() {}
 
-func(list1) => list1[list1.legth - 1];
+func(list1) => [list1[list1.legth - 1]];
