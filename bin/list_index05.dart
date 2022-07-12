@@ -7,7 +7,10 @@
     Returns:
         list: return answer
 */
-void main() {}
-func(a, b) {
+void main() {
+  print(func([1, 2, 3], 1));
+}
+
+func(List a, int b) {
   return a[b];
 }

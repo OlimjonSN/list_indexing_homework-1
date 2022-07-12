@@ -7,7 +7,7 @@
         bool: return answer
 */
 void main() {
-  List l = [1, 1, 1, 1, 1];
+  List l = [0, 1, 0, 0, 1];
   print(func(l));
 }
 
